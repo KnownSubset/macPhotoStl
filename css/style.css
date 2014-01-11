@@ -992,7 +992,7 @@ section * {
   font-weight: normal;
   color: #2c3e50;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   line-height: 42px;
   font-weight: 800;
   letter-spacing: -1px;
@@ -1505,8 +1505,8 @@ section * {
   background-color: #2ecc71;
 }
 body > section.v-center > div {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 140px;
+  padding-bottom: 140px;
 }
 @media (max-width: 767px) {
   body > section.v-center > div {
@@ -1531,6 +1531,12 @@ body > section.v-center > div {
 }
 .content-23.custom-bg {
   background-image: url('../img/Italy_001.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.content-23.wedding-bg {
+  background-image: url('../img/wedding-bg.png');
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
